@@ -105,8 +105,6 @@ function llenarInformacionArchivo(file) {
         sizeType.innerText = 'MB'
         fileSize.innerText = ((file.size / 1024) / 1024).toFixed(1) ;
     }
-
-    // Imprimir el size en el HTML
 }
 
 function limpiarHTML() {
