@@ -1,0 +1,28 @@
+{
+  "name": "validador-de-archivos",
+  "version": "1.0.0",
+  "description": "Aplicacion web de validacion de archivos en tiempo real",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wjdevelopersolutions/validador-de-archivos-WEBAPP.git"
+  },
+  "keywords": [
+    "validador",
+    "archivo",
+    "validacion-de-archivo",
+    "app"
+  ],
+  "author": "Will & Wilson Web Solutions Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wjdevelopersolutions/validador-de-archivos-WEBAPP/issues"
+  },
+  "homepage": "https://github.com/wjdevelopersolutions/validador-de-archivos-WEBAPP#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
