@@ -1,0 +1,179 @@
+@import "./bootstrap.fd.css";
+
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primary: #557174;
+    --secondary: #9dad7f;
+    --tertiary: #c7cfb7;
+    --bg-blanco: #f7f7e8;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+}
+
+.w3-cft-navbar .navbar-nav .nav-item a {
+    font-size: 1.2rem;
+}
+
+.w3-cft-home {
+    /* height: 75vh; */
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 760px) {
+
+    /* Your code goes here! */ 
+    .w3-cft-home {
+        height: 75vh;
+        display: block;
+    }    
+ 
+}
+
+
+.bg-info {
+    background-color: var( --primary ) !important;
+}
+
+.w3-cft__header {
+    margin-top: 2rem;
+}
+
+.w3-cft__header .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.w3-cft__header .row div {
+    text-align: center;
+}
+
+.w3-cft__header .row img {
+    width: 30%;
+}
+
+@media (min-width: 760px) {
+
+    /* Your code goes here! */ 
+    .w3-cft__header .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .w3-cft__header .row img {
+        width: 70%;
+    }  
+    .w3-cft__header .title {
+        font-size: 2rem !important;
+    }
+    .w3-cft__file-upload {
+        margin: 2rem 0;
+    }
+    .w3-cft__header--output .alert {
+        margin: 2rem 0 0 0 !important;
+    }
+ 
+}
+
+.w3-cft__header .row .title {
+    font-size: 1.3rem;
+}
+@media (min-width: 480px) {
+
+    /* Your code goes here! */ 
+    .title {
+        font-size: 2rem;
+    }
+ 
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 500px;
+    font-size: 1rem;
+}
+
+.w3-cft__header--output .alert {
+    margin: 2rem 0;
+    font-size: 1.3rem;
+}
+
+.alert {
+    font-size: 1rem;
+    margin-bottom: 0;
+    display: flex;
+    border-radius: 10px;
+    align-items: center !important;
+}
+
+.alert .list-group .list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.w3-cft__file-upload .btn-success {
+    margin-bottom: 2rem;
+}
+
+.w3-ctf__title {
+    margin-top: 2.5rem;
+}
+
+.no-grutters {
+    margin: 0;
+    padding: 0;
+}
+
+.w3-ctf__title h2{
+    font-size: 1.2rem;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+input[type="search"] {
+    border-radius: 500px;
+    height: 16px;
+    font-size: 1.4rem;
+    width: 170px !important;
+}
+
+.bfd-dropfield {
+    display: inline;
+    padding: 5px;
+}
+
+.modal-header {
+    display: block;
+    background-color: var( --primary );
+}
+
+.modal-header h4,
+.modal-header button {
+    color: var( --blanco ) !important;
+}
+
+.jumbotron {
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.jumbotron .cfto-jumbotron__icon {
+    font-size: 5rem;
+}
+
+.progress-bar {
+    background-color:#4bbf73 !important;
+}

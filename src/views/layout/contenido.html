@@ -1,0 +1,122 @@
+<div class="row cfto-page__index mb-5">
+
+    <div class="col-12 heading mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-3">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="/public/assets/image/logo-icon-rounded.png" alt="logo">
+                    </div>
+                    <div class="col-md-9">
+                        <h1>CheckFileType Online - 100% Free & Secure</h1>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-12 mt-4">
+                        <h3>Contenido del archivo</h3>
+                        <div id="contenido-del-arcivo" class="mt-1 d-flex cfto-page__contenido--archivo flex-column"></div>
+                    </div>
+                </div> -->
+            </div>
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-12">
+
+                        <!-- <form action="/cargar-y-verificar" method="POST" enctype="multipart/form-data">
+                            <h3>Escoge tu archivo para empezar</h3>
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" name="archivo" id="archivos">
+                                    <label id="cfto-input-label" class="custom-file-label" for="inputGroupFile02">Subir archivo</label>
+                                </div>
+                                </div>
+                            </div>
+                            <input type="hidden" name="file-reader" value="hola">
+                            <button type="submit" class="btn btn-secondary btn-lg">
+                                <i class="icofont icofont-ui-settings"></i>
+                                comprobar el tipo de archivo</button>
+                        </form> -->
+                    </div>
+                    <!-- <div class="col-12 mt-2">
+
+                        <h3>Informacion del archivo</h3>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col">Tipo de Mimica</th>
+                                    <th scope="col">Tipo de archivo</th>
+                                    <th scope="col">Peso</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th class="d-flex justify-content-center">
+                                        <i id="file-type-icon"></i>
+                                    </th>
+                                    <td>
+                                        <p id="file-name"></p>
+                                    </td>
+                                    <td>
+                                        <p id="file-type"></p>
+                                    </td>
+                                    <td>
+                                        <p id="file-ext"></p>
+                                    </td>
+                                    <td style="font-size: 1rem; padding: .75rem 0">
+                                         <p>
+                                            <span id="file-size"></span>
+                                            <small class="size-type" id="size-type"></small>
+                                        </p>  
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a href="/cargar-y-verificar" class="btn btn-info">Ver detalle</a>
+                        <button class="btn btn-outline-info">Realizar otra consulta</button>
+                    
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <section class="responsive600">
+                    <form method="POST" action="" id="a1">
+                        <div class="form-field">
+                            <label data-form-field="attachments[]" data-form-id="a1" for="a7">
+                                <p data-form-field="attachments[]" data-form-id="a1">UPLOAD ATTACHMENTS</p>
+                                <div class="drag-drop" data-form-field="attachments[]" data-form-id="a1">
+                                <p data-form-field="attachments[]" data-form-id="a1">Select file(s) or </p>
+                                <p data-form-field="attachments[]" data-form-id="a1"> Drag and Drop your file(s) here</p>
+                                <input class="file-input" data-form-field="attachments[]" data-form-id="a1"  name="attachments[]" type="file" multiple="multiple" id="a7" >
+                                </div>
+                            </label>
+                            <div data-form-field="attachments[]" class="file-list">
+                            </div>
+                        </div>
+                    </form>
+                </section>
+            </div>
+            <div class="col-6 offset-3 cfto-dragDrop__alert">
+                <div class="alert alert-dismissible alert-info">
+                    <div class="row">
+                        <div class="col-9">
+                            <strong>Importante!</strong>, Obten informacion adicional sobre el tipo de archivo según el contenido del mismo.
+                        </div>
+                        <div class="col-3 d-flex justify-content-center align-items-center">
+                            <form action="/cargar-y-verificar" method="POST" enctype="multipart/form-data">
+                                <button type="submit" class="btn btn-info">
+                                    <i class="icofont icofont-ui-settings"></i>
+                                    Continuar
+                                </button>
+                            </form>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
